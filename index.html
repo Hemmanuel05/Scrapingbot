@@ -52,7 +52,8 @@
 </html>
 
 /* styles.css */
-body {
+<styles>
+  body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
   margin: 0;
@@ -127,8 +128,10 @@ th, td {
   display: block;
   margin: 1rem auto;
 }
+  </styles>
 
 // script.js
+<script>
 const form = document.getElementById('scrape-form');
 const progressEl = document.getElementById('progress');
 const resultsTable = document.getElementById('results-table').querySelector('tbody');
@@ -190,3 +193,4 @@ exportBtn.addEventListener('click', () => {
   a.click();
   document.body.removeChild(a);
 });
+</script>
